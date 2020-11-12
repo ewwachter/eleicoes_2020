@@ -9,9 +9,9 @@ BASE_URL="https://resultados.tse.jus.br/publico/ele2020/divulgacao/simulado/"+CO
 
 # Como executar
 
-- Primeiro descubra o código do município. Por exemplo, para procurar o código da cidade de São Luís no Maranhão:
+- Primeiro descubra o código do município. Por exemplo, para procurar o código da cidade de Três de Maio:
 
-python get_city_code.py -uf ma -n "SÃO LUÍS"
+python get_city_code_br.py -n "TRÊS DE MAIO"
 
 
  - Com o código da cidade, pegue os resultados para prefeito (exemplo cidade do Rio de Janeiro - RJ)
