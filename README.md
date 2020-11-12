@@ -2,10 +2,13 @@
 python para acompanhar resultados eleições 2020 via API do TSE.
 Dados iniciais configurados para a simulação executada pelo TSE. Mais informações no link: https://www.tse.jus.br/eleicoes/eleicoes-2020/interessados-na-divulgacao-de-resultados
 
-configuração para o simulado:
+- Configuração para o simulado:
 COD_ELEICAO="8334"
 BASE_URL="https://resultados.tse.jus.br/publico/ele2020/divulgacao/simulado/"+COD_ELEICAO+"/"
 
+- Configuração para o resultado oficial:
+COD_ELEICAO="426"
+BASE_URL="https://resultados.tse.jus.br/oficial/ele2020/divulgacao/oficial/"+COD_ELEICAO+"/"
 
 # Como executar
 
